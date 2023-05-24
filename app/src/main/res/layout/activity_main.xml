@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,TextSizeCheck,VisualLintBounds"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/allerta"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="@string/txtnombre" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="@string/txtnombreH"
+            android:maxLength="50"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/txtEdad" />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="@string/txtEdadH"
+            android:inputType="number"
+            android:maxLength="3"
+            android:minHeight="48dp"
+            android:autofillHints="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/txtCelular" />
+
+        <EditText
+            android:id="@+id/txtCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="@string/txtCelularH"
+
+            android:inputType="phone"
+
+            android:maxLength="9"
+
+            android:minHeight="48dp"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/txtCorreo"/>
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="@string/txtCorreoH"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/btnSaludo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/btnSaludo"
+            tools:ignore="VisualLintButtonSize" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

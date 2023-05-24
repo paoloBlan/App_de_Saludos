@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App de Saludos</string>
+    <string name="txtCelular">Celular</string>
+    <string name="txtnombre">Nombre</string>
+    <string name="txtEdad">Edad</string>
+    <string name="txtCorreo">Correo</string>
+
+    <string name="txtCelularH">ingrese celular</string>
+    <string name="txtnombreH">Ingrese nombre</string>
+    <string name="txtEdadH">Ingrese edad</string>
+    <string name="txtCorreoH">Ingrese correo</string>
+
+    <string name="btnSaludo">Saludo</string>
+
+
+
+
+
+</resources>
